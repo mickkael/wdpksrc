@@ -24,4 +24,3 @@ echo "Bundle sources"
 SRC_TAR="${RELEASE_DIR}/${APP_NAME}_src_${VERSION}.tar.gz"
 tar -czf $SRC_TAR .
 
-

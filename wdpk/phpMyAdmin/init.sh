@@ -10,6 +10,5 @@ APKG_MULTI_LANG_DESC_XML="desc.xml"
 rm -rf $APKG_WWW_DIR  2> /dev/null
 
 #create link
-mkdir /var/www/phpMyAdmin
-ln -sf $path/${APKG_MODULE_WEB_DIR} ${APKG_WWW_DIR}
+ln -sf $path/web ${APKG_WWW_DIR}
 

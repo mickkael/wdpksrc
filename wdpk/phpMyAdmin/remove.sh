@@ -20,3 +20,4 @@ fi
 
 #remove intstalled directory
 rm -rf $path
+
